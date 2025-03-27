@@ -37,3 +37,15 @@
 
 # 2025-03-27 17:49:55.461978
 +Yes, regenerate the ldt_stimuli.csv file.
+
+# 2025-03-27 17:57:07.397082
++/clear
+
+# 2025-03-27 17:57:30.512648
++/drop resources/ibex-overview.md chunk_includes/list.csv 
+
+# 2025-03-27 17:57:49.678897
++/add analysis/results.R 
+
+# 2025-03-27 17:58:00.079883
++/exit
