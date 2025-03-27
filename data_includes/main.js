@@ -17,7 +17,8 @@ newTrial( "welcome" ,
     ,
     newText("In this experiment you are asked to decide whether the letter strings (appearing at the center of the screen) form real English words.")
     ,
-    newText("To do this, press F if what you see is a word, or J if it is not a word.")
+    // Updated instruction keys to match ldt.md
+    newText("To do this, press J if what you see is a word, or F if it is not a word.")
     ,
     newText("You should do this as quickly and accurately as possible.")
     ,
@@ -38,55 +39,60 @@ newTrial("practice" ,
     ,
     // Mask, shown on screen for 500ms
     newText("mask","######"),
-    newTimer("maskTimer", 500),                       
+    newTimer("maskTimer", 500),
     getText("mask").remove()
     ,
-    // Prime, shown on screen for 42ms
-    newText("prime","flower"),
-    newTimer("primeTimer", 42),
+    // Prime, shown on screen for 42ms (adjust timing as needed based on ldt.md recommendations)
+    newText("prime","flower"), // Example prime
+    newTimer("primeTimer", 42), // Consider 30-50ms range
     getText("prime").remove()
     ,
     // Target, shown on screen until F or J is pressed
-    newText("target","FLOWER")
+    newText("target","FLOWER") // Example target
     ,
-    // Use a tooltip to give instructions
-    newTooltip("guide", "Now press F if this is an English word, J otherwise")
+    // Use a tooltip to give instructions matching the welcome screen
+    newTooltip("guide", "Now press J if this is an English word, F otherwise")
         .position("bottom center")  // Display it below the element it attaches to
         .key("", "no click")        // Prevent from closing the tooltip (no key, no click)
         .print(getText("target"))   // Attach to the "target" Text element
     ,
     newKey("answerTarget", "FJ")
         .wait()                 // Only proceed after a keypress on F or J
-        .test.pressed("F")      // Set the "guide" Tooltip element's feedback text accordingly
-        .success( getTooltip("guide").text("<p>Yes, FLOWER <em>is</em> an English word</p>") )
-        .failure( getTooltip("guide").text("<p>You should press F: FLOWER <em>is</em> an English word</p>") )
+        .test.pressed("J")      // Test if J (word) was pressed
+        .success( getTooltip("guide").text("<p>Yes, FLOWER <em>is</em> an English word (You pressed J)</p>") )
+        .failure( getTooltip("guide").text("<p>You should press J: FLOWER <em>is</em> an English word (You pressed F)</p>") )
     ,
     getTooltip("guide")
-        .label("Press SPACE to start")  // Add a label to the bottom-right corner
+        .label("Press SPACE to start the main experiment")  // Add a label to the bottom-right corner
         .key(" ")                       // Pressing Space will close the tooltip
         .wait()                         // Proceed only when the tooltip is closed
     ,
     getText("target").remove()          // End of trial, remove "target"
 )
 
-// Executing experiment from list.csv table, where participants are divided into two groups (A vs B)
-Template( "list.csv" , 
-    row => newTrial( "test" ,   
+// Executing experiment from ldt_stimuli.csv table
+Template( "ldt_stimuli.csv" ,
+    row => newTrial( "test" ,
         // Display all Text elements centered on the page, and log their display time code
         defaultText.center().print("center at 50vw","middle at 50vh").log()
         ,
         // Automatically start and wait for Timer elements when created, and log those events
         defaultTimer.log().start().wait()
         ,
-        // Mask, shown on screen for 500ms
-        newText("mask","######"),
-        newTimer("maskTimer", 500),                       
-        getText("mask").remove()
+        // Mask, shown on screen for 500ms (Forward Mask)
+        newText("mask1","#######"), // Changed name to mask1
+        newTimer("maskTimer1", 500), // Changed name to maskTimer1
+        getText("mask1").remove()
         ,
-        // Prime, shown on screen for 42ms
+        // Prime, shown on screen for 42ms (adjust timing as needed, e.g., 30-50ms)
         newText("prime",row.prime),
-        newTimer("primeTimer", 42),
+        newTimer("primeTimer", 42), // Consider 30-50ms range
         getText("prime").remove()
+        ,
+        // Backward Mask (Added based on ldt.md)
+        newText("mask2","#######"), // Changed name to mask2
+        newTimer("maskTimer2", 100), // Display for 100ms (adjust as needed, 100-500ms range suggested)
+        getText("mask2").remove()
         ,
         // Target, shown on screen until F or J is pressed
         newText("target",row.target)
@@ -96,10 +102,13 @@ Template( "list.csv" ,
         getText("target").remove()
         // End of trial, move to next one
     )
-    .log( "Group"     , row.group)      // Append group (A vs B) to each result line
-    .log( "Condition" , row.condition)  // Append condition (tr. v op. v fi.) to each result line
-    .log( "Expected"  , row.expected )  // Append expectped (f vs j) to each result line
-    .log( "PrimeType", row.primetype ) // Append prime type (rel. vs unr.) to each result line
+    // Log information from the CSV file for this trial
+    .log( "Group"     , row.group)
+    .log( "Condition" , row.condition)  // 'word' or 'nonword'
+    .log( "Expected"  , row.expected )  // 'f' or 'j'
+    .log( "PrimeType" , row.primetype ) // 'related' or 'unrelated'
+    .log( "PrimeWord" , row.prime )     // Log the actual prime word
+    .log( "TargetWord", row.target )    // Log the actual target word
 )
 
 // Send the results

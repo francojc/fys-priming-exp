@@ -13,3 +13,27 @@
 
 # 2025-03-27 17:40:15.965011
 +/read-only chunk_includes/list.csv 
+
+# 2025-03-27 17:40:44.628000
++/map-refresh
+
+# 2025-03-27 17:42:07.109741
++/ask I am aiming to build the experiment described in the `resources/ldt.md` file. Can you help me adjust my stimuli to fit the template/ example provided in `chunk_includes/list.csv`?
+
+# 2025-03-27 17:43:28.781864
++/ask the addition of the `.log("PrimeWord", ...` and TargetWord means that the results will contain these, correct?
+
+# 2025-03-27 17:44:17.515382
++Great. Can you write the stimuli to the new file and adjust the `main.js` to include the prime and target words in the results?
+
+# 2025-03-27 17:47:06.347944
++/ask Now, I isn't it better to have two 'group' labels so that some students will get the related prime-target sequence and other will get the unrelated prime-target sequence, with all the students getting the same non-word distractors?
+
+# 2025-03-27 17:47:31.167829
++Implement this change.
+
+# 2025-03-27 17:49:03.265820
++/ask Hold on, Group A and B should get a mix of related and unrelated prime-target sequences, just not the same ones, right?
+
+# 2025-03-27 17:49:55.461978
++Yes, regenerate the ldt_stimuli.csv file.
