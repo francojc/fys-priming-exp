@@ -1,2 +1,4 @@
 *.aider
-*.aider
+.DS_Store
+.aider.chat.history.md
+.aider.tags.cache.v4
