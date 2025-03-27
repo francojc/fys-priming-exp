@@ -49,3 +49,18 @@
 
 # 2025-03-27 17:58:00.079883
 +/exit
+
+# 2025-03-27 17:58:42.197277
++/read-only _docs/analysis-with-R.md 
+
+# 2025-03-27 17:58:50.687968
++/add analysis/results.R
+
+# 2025-03-27 17:59:02.868662
++/read-only _docs/results_dev.csv 
+
+# 2025-03-27 18:02:45.258131
++/ask Could you help me design an R script that will analyze the data results in `analysis/results.R` to understand the potential semantic priming effects for the related and unrelated condition? 
+
+# 2025-03-27 18:06:22.476827
++Please write this script to the `analysis/results.R` file. 
