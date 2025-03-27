@@ -1,0 +1,27 @@
+
+# 2025-03-26 23:24:30.970689
++/code
+
+# 2025-03-26 23:25:07.260537
++/run mcpm-aider toolprompt
+
+# 2025-03-26 23:26:52.444083
++Give me a list of current MCP clients that work with the Model Context Protocol.
+
+# 2025-03-26 23:27:04.114750
++/run mcpm-aider call @jsonallen/perplexity-mcp perplexity_search_web '{"query": "List of Model Context Protocol MCP clients"}'
+
+# 2025-03-26 23:27:04.114848
++/run mcpm-aider call @jsonallen/perplexity-mcp perplexity_search_web '{"query": "List of Model Context Protocol MCP clients"}'
+
+# 2025-03-26 23:27:29.423233
++Summarize these findings in a markdown table.
+
+# 2025-03-26 23:28:02.030667
++/run pwd
+
+# 2025-03-26 23:28:06.281714
++N
+
+# 2025-03-27 15:12:26.354389
++/exit
