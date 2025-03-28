@@ -8,7 +8,7 @@
 # Usage: Rscript analysis/results.R
 
 # --- 1. Load Libraries ---
-# Use pacman to load/install packages
+# Environment controlled by flake.nix
 library(tidyverse)
 library(janitor)
 library(here)
@@ -197,20 +197,16 @@ if (nrow(analysis_data_rt) > 5 && length(unique(analysis_data_rt$prime_type)) ==
       (1 | target_word),
     data = analysis_data_rt
   )
-
   print("Linear mixed effects model results:")
   print(summary(rt_model))
-
   emm <- emmeans(rt_model, ~prime_type)
   print("Estimated marginal means:")
   print(emm)
-
   pairs <- pairs(emm)
   print("Pairwise comparisons:")
   print(pairs)
-
   contrasts <- contrast(emm, "pairwise")
-  effect_size <- contrasts$estimate / sqrt(VarCorr(rt_model)$id[1] + VarCorr(rt_model)$target_word[1])
+  effect_size <- summary(contrasts)$estimate / sqrt(VarCorr(rt_model)$id[1] + VarCorr(rt_model)$target_word[1])
   print(paste("Cohen's d effect size:", round(effect_size, 3)))
 } else {
   print("Not enough data or conditions for mixed effects analysis.")
@@ -238,7 +234,6 @@ if (nrow(analysis_data_rt) > 0) {
     ) +
     theme_minimal(base_size = 12) +
     theme(legend.position = "none")
-
   print(plot_rt_box)
 } else {
   print("No data available for RT box plot.")
@@ -260,7 +255,6 @@ if (nrow(rt_summary) > 0 && "mean_rt_unrelated" %in% names(priming_effect_rt)) {
     ) +
     theme_minimal(base_size = 12) +
     theme(legend.position = "none")
-
   print(plot_rt_bar)
 } else {
   print("No data available or priming effect could not be calculated for RT bar plot.")
@@ -278,7 +272,6 @@ if (nrow(acc_summary) > 0) {
     ) +
     theme_minimal(base_size = 12) +
     theme(legend.position = "none")
-
   print(plot_acc_bar)
 } else {
   print("No data available for Accuracy bar plot.")

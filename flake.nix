@@ -29,6 +29,7 @@
         emmeans
         lme4
         lmerTest
+        pbkrtest
       ];
 
       # Combine all package lists, including the Python environment itself
