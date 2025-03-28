@@ -15,6 +15,7 @@ library(here)
 library(lme4) # for mixed effects models
 library(lmerTest) # for p-values in mixed models
 library(emmeans) # for estimated marginal means
+library(knitr) # for markdown output
 
 # --- 2. Define read.pcibex Function ---
 # User-defined function to read in PCIbex Farm results files
@@ -171,6 +172,7 @@ analysis_data_acc <- final_data %>%
   filter(prime_type %in% c("related", "unrelated"))
 
 # --- 7. Analyze Priming Effect ---
+# Print these summary statistics to a markdown file AI!
 rt_summary <- analysis_data_rt %>%
   group_by(prime_type) %>%
   summarise(
@@ -235,6 +237,7 @@ if (nrow(analysis_data_rt) > 0) {
     theme_minimal(base_size = 12) +
     theme(legend.position = "none")
   print(plot_rt_box)
+  ggsave(here("figures", "rt_box_plot.png"), plot = plot_rt_box, width = 6, height = 4, dpi = 300)
 } else {
   print("No data available for RT box plot.")
 }
@@ -256,6 +259,7 @@ if (nrow(rt_summary) > 0 && "mean_rt_unrelated" %in% names(priming_effect_rt)) {
     theme_minimal(base_size = 12) +
     theme(legend.position = "none")
   print(plot_rt_bar)
+  ggsave(here("figures", "rt_bar_plot.png"), plot = plot_rt_bar, width = 6, height = 4, dpi = 300)
 } else {
   print("No data available or priming effect could not be calculated for RT bar plot.")
 }

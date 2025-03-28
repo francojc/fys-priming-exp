@@ -30,6 +30,7 @@
         lme4
         lmerTest
         pbkrtest
+        knitr
       ];
 
       # Combine all package lists, including the Python environment itself
