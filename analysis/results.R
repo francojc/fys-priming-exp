@@ -265,6 +265,7 @@ if (nrow(acc_summary) > 0) {
     ggplot(aes(x = prime_type, y = mean_accuracy, fill = prime_type)) +
     geom_bar(stat = "identity", alpha = 0.8, width = 0.7) +
     scale_y_continuous(limits = c(0, 1), labels = scales::percent) +
+    scale_fill_manual(values = c("related" = "darkblue", "unrelated" = "darkred")) +
     labs(
       title = "Mean Accuracy by Prime Type",
       x = "Prime Type",
@@ -273,6 +274,7 @@ if (nrow(acc_summary) > 0) {
     theme_minimal(base_size = 12) +
     theme(legend.position = "none")
   print(plot_acc_bar)
+  ggsave(here("figures", "accuracy_bar_plot.png"), plot = plot_acc_bar, width = 6, height = 4, dpi = 300)
 } else {
   print("No data available for Accuracy bar plot.")
 }
