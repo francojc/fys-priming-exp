@@ -172,7 +172,6 @@ analysis_data_acc <- final_data %>%
   filter(prime_type %in% c("related", "unrelated"))
 
 # --- 7. Analyze Priming Effect ---
-# Print these summary statistics to a markdown file AI!
 rt_summary <- analysis_data_rt %>%
   group_by(prime_type) %>%
   summarise(
@@ -190,7 +189,13 @@ priming_effect_rt <- rt_summary %>%
   mutate(priming_effect_ms = mean_rt_unrelated - mean_rt_related)
 
 print("Priming Effect (RT):")
-print(paste("Raw mean difference:", round(priming_effect_rt$priming_effect_ms, 1), "ms"))
+priming_effect_ms_value <- if (nrow(priming_effect_rt) > 0 && "priming_effect_ms" %in% names(priming_effect_rt)) {
+  round(priming_effect_rt$priming_effect_ms, 1)
+} else {
+  NA
+}
+print(paste("Raw mean difference:", priming_effect_ms_value, "ms"))
+
 
 if (nrow(analysis_data_rt) > 5 && length(unique(analysis_data_rt$prime_type)) == 2) {
   rt_model <- lmer(
@@ -225,10 +230,75 @@ acc_summary <- analysis_data_acc %>%
 print("Accuracy Summary:")
 print(acc_summary)
 
+# --- 7a. Write Summary Statistics to Markdown ---
+summary_output <- c(
+  "# Summary Statistics",
+  "",
+  "## Reaction Time Summary (Correct Trials)",
+  ""
+)
+if (nrow(rt_summary) > 0) {
+  summary_output <- c(
+    summary_output,
+    kable(rt_summary, format = "markdown", digits = 1),
+    ""
+  )
+} else {
+  summary_output <- c(summary_output, "No data for RT summary.", "")
+}
+
+summary_output <- c(
+  summary_output,
+  "## Priming Effect (RT)",
+  ""
+)
+if (!is.na(priming_effect_ms_value)) {
+  summary_output <- c(
+    summary_output,
+    paste("Raw mean difference (Unrelated - Related):", priming_effect_ms_value, "ms"),
+    ""
+  )
+} else {
+  summary_output <- c(summary_output, "Priming effect could not be calculated.", "")
+}
+
+summary_output <- c(
+  summary_output,
+  "## Accuracy Summary (All Trials)",
+  ""
+)
+if (nrow(acc_summary) > 0) {
+  summary_output <- c(
+    summary_output,
+    kable(acc_summary, format = "markdown", digits = 3),
+    ""
+  )
+} else {
+  summary_output <- c(summary_output, "No data for Accuracy summary.", "")
+}
+
+# Ensure the analysis directory exists
+analysis_dir <- here("analysis")
+if (!dir.exists(analysis_dir)) {
+  dir.create(analysis_dir, recursive = TRUE)
+}
+output_file_path <- file.path(analysis_dir, "summary_stats.md")
+writeLines(summary_output, output_file_path)
+print(paste("Summary statistics written to", output_file_path))
+
+
 # --- 8. Visualize Results ---
+# Ensure the figures directory exists
+figures_dir <- here("figures")
+if (!dir.exists(figures_dir)) {
+  dir.create(figures_dir, recursive = TRUE)
+}
+
 if (nrow(analysis_data_rt) > 0) {
   plot_rt_box <- ggplot(analysis_data_rt, aes(x = prime_type, y = rt, fill = prime_type)) +
     geom_boxplot(alpha = 0.7) +
+    scale_fill_manual(values = c("related" = "darkblue", "unrelated" = "darkred")) +
+    scale_x_discrete(labels = c("related" = "Related\n(e.g., family-LOVE)", "unrelated" = "Unrelated\n(e.g., street-LOVE)")) +
     labs(
       title = "Reaction Time by Prime Type (Correct Trials)",
       x = "Prime Type",
@@ -237,12 +307,12 @@ if (nrow(analysis_data_rt) > 0) {
     theme_minimal(base_size = 12) +
     theme(legend.position = "none")
   print(plot_rt_box)
-  ggsave(here("figures", "rt_box_plot.png"), plot = plot_rt_box, width = 6, height = 4, dpi = 300)
+  ggsave(file.path(figures_dir, "rt_box_plot.png"), plot = plot_rt_box, width = 6, height = 4, dpi = 300)
 } else {
   print("No data available for RT box plot.")
 }
 
-if (nrow(rt_summary) > 0 && "mean_rt_unrelated" %in% names(priming_effect_rt)) {
+if (nrow(rt_summary) > 0 && !is.na(priming_effect_ms_value)) {
   plot_rt_bar <- rt_summary %>%
     ggplot(aes(x = prime_type, y = mean_rt, fill = prime_type)) +
     geom_bar(stat = "identity", alpha = 0.8, width = 0.7) +
@@ -250,16 +320,18 @@ if (nrow(rt_summary) > 0 && "mean_rt_unrelated" %in% names(priming_effect_rt)) {
       aes(ymin = mean_rt - sd_rt / sqrt(n), ymax = mean_rt + sd_rt / sqrt(n)),
       width = 0.2
     ) +
+    scale_fill_manual(values = c("related" = "darkblue", "unrelated" = "darkred")) +
+    scale_x_discrete(labels = c("related" = "Related\n(e.g., family-LOVE)", "unrelated" = "Unrelated\n(e.g., street-LOVE)")) +
     labs(
       title = "Mean Reaction Time by Prime Type (Correct Trials)",
-      subtitle = paste("Priming Effect:", round(priming_effect_rt$priming_effect_ms, 1), "ms"),
+      subtitle = paste("Priming Effect:", priming_effect_ms_value, "ms"),
       x = "Prime Type",
       y = "Mean Reaction Time (ms)"
     ) +
     theme_minimal(base_size = 12) +
     theme(legend.position = "none")
   print(plot_rt_bar)
-  ggsave(here("figures", "rt_bar_plot.png"), plot = plot_rt_bar, width = 6, height = 4, dpi = 300)
+  ggsave(file.path(figures_dir, "rt_bar_plot.png"), plot = plot_rt_bar, width = 6, height = 4, dpi = 300)
 } else {
   print("No data available or priming effect could not be calculated for RT bar plot.")
 }
@@ -270,6 +342,7 @@ if (nrow(acc_summary) > 0) {
     geom_bar(stat = "identity", alpha = 0.8, width = 0.7) +
     scale_y_continuous(limits = c(0, 1), labels = scales::percent) +
     scale_fill_manual(values = c("related" = "darkblue", "unrelated" = "darkred")) +
+    scale_x_discrete(labels = c("related" = "Related\n(e.g., family-LOVE)", "unrelated" = "Unrelated\n(e.g., street-LOVE)")) +
     labs(
       title = "Mean Accuracy by Prime Type",
       x = "Prime Type",
@@ -278,7 +351,7 @@ if (nrow(acc_summary) > 0) {
     theme_minimal(base_size = 12) +
     theme(legend.position = "none")
   print(plot_acc_bar)
-  ggsave(here("figures", "accuracy_bar_plot.png"), plot = plot_acc_bar, width = 6, height = 4, dpi = 300)
+  ggsave(file.path(figures_dir, "accuracy_bar_plot.png"), plot = plot_acc_bar, width = 6, height = 4, dpi = 300)
 } else {
   print("No data available for Accuracy bar plot.")
 }

@@ -202,3 +202,6 @@
 
 # 2025-03-28 08:03:03.852161
 +/exit
+
+# 2025-03-28 08:19:00.999332
++For the plots with 'prime_type' as the fill in `results.R`, add an example as part of the label on the x-axis. For example, "related\nfamily LOVE" and "unrelated\nstreet LOVE".
