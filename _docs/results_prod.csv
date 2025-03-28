@@ -1,0 +1,1340 @@
+#
+# Results on Fri, 28 Mar 2025 02:54:23 GMT
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:136.0) Gecko/20100101 Firefox/136.0
+# Design number was non-random = 1
+#
+# Columns below this comment are as follows:
+# 1. Results reception time.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Order number of item.
+# 5. Inner element number.
+# 6. Label.
+# 7. Latin Square Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. ID.
+# 14. Comments.
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Trial_,Start,1743130429850,kas6n5,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Header_,Start,1743130429850,kas6n5,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Header_,End,1743130429850,kas6n5,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Trial_,End,1743130431872,kas6n5,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Trial_,Start,1743130431877,kas6n5,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Header_,Start,1743130431877,kas6n5,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Header_,End,1743130431878,kas6n5,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Trial_,End,1743130435715,kas6n5,NULL
+# 14. Group.
+# 15. Condition.
+# 16. Expected.
+# 17. PrimeType.
+# 18. PrimeWord.
+# 19. TargetWord.
+# 20. Comments.
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Trial_,Start,1743130435717,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Header_,Start,1743130435717,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Header_,End,1743130435717,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,mask1,Print,NA,1743130435719,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer1,Start,Start,1743130435720,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer1,End,End,1743130436222,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,prime,Print,NA,1743130436226,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,primeTimer,Start,Start,1743130436227,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,primeTimer,End,End,1743130436272,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,mask2,Print,NA,1743130436274,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer2,Start,Start,1743130436275,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer2,End,End,1743130436377,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,target,Print,NA,1743130436380,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Key,answerTarget,PressedKey,F,1743130437475,kas6n5,B,word,j,related,friend,SUPPORT,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Trial_,End,1743130437478,kas6n5,B,word,j,related,friend,SUPPORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Trial_,Start,1743130437483,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Header_,Start,1743130437483,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Header_,End,1743130437485,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,mask1,Print,NA,1743130437486,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer1,Start,Start,1743130437487,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer1,End,End,1743130437991,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,prime,Print,NA,1743130437994,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,primeTimer,Start,Start,1743130437996,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,primeTimer,End,End,1743130438040,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,mask2,Print,NA,1743130438043,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer2,Start,Start,1743130438044,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer2,End,End,1743130438146,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,target,Print,NA,1743130438149,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Key,answerTarget,PressedKey,J,1743130439021,kas6n5,B,nonword,f,unrelated,picture,HAPY,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Trial_,End,1743130439022,kas6n5,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Trial_,Start,1743130439023,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Header_,Start,1743130439023,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Header_,End,1743130439023,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,mask1,Print,NA,1743130439024,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer1,Start,Start,1743130439024,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer1,End,End,1743130439526,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,prime,Print,NA,1743130439529,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,primeTimer,Start,Start,1743130439530,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,primeTimer,End,End,1743130439574,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,mask2,Print,NA,1743130439577,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer2,Start,Start,1743130439579,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer2,End,End,1743130439681,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,target,Print,NA,1743130439683,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Key,answerTarget,PressedKey,F,1743130440288,kas6n5,B,word,j,unrelated,floor,ANXIOUS,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Trial_,End,1743130440289,kas6n5,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Trial_,Start,1743130440291,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Header_,Start,1743130440291,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Header_,End,1743130440292,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,mask1,Print,NA,1743130440293,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer1,Start,Start,1743130440294,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer1,End,End,1743130440794,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,prime,Print,NA,1743130440798,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,primeTimer,Start,Start,1743130440798,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,primeTimer,End,End,1743130440840,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,mask2,Print,NA,1743130440844,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer2,Start,Start,1743130440845,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer2,End,End,1743130440946,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,target,Print,NA,1743130440949,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Key,answerTarget,PressedKey,F,1743130441597,kas6n5,B,word,j,unrelated,table,SUCCESS,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Trial_,End,1743130441599,kas6n5,B,word,j,unrelated,table,SUCCESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Trial_,Start,1743130441602,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Header_,Start,1743130441602,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Header_,End,1743130441602,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,mask1,Print,NA,1743130441604,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer1,Start,Start,1743130441605,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer1,End,End,1743130442108,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,prime,Print,NA,1743130442110,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,primeTimer,Start,Start,1743130442112,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,primeTimer,End,End,1743130442156,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,mask2,Print,NA,1743130442158,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer2,Start,Start,1743130442159,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer2,End,End,1743130442261,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,target,Print,NA,1743130442264,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Key,answerTarget,PressedKey,F,1743130442877,kas6n5,B,word,j,unrelated,door,VACATION,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Trial_,End,1743130442879,kas6n5,B,word,j,unrelated,door,VACATION,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Trial_,Start,1743130442881,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Header_,Start,1743130442881,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Header_,End,1743130442882,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,mask1,Print,NA,1743130442883,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer1,Start,Start,1743130442883,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer1,End,End,1743130443383,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,prime,Print,NA,1743130443386,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,primeTimer,Start,Start,1743130443387,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,primeTimer,End,End,1743130443431,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,mask2,Print,NA,1743130443433,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer2,Start,Start,1743130443434,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer2,End,End,1743130443537,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,target,Print,NA,1743130443540,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Key,answerTarget,PressedKey,F,1743130444128,kas6n5,B,word,j,related,study,DEGREE,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Trial_,End,1743130444131,kas6n5,B,word,j,related,study,DEGREE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Trial_,Start,1743130444132,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Header_,Start,1743130444132,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Header_,End,1743130444133,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,mask1,Print,NA,1743130444135,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer1,Start,Start,1743130444135,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer1,End,End,1743130444635,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,prime,Print,NA,1743130444638,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,primeTimer,Start,Start,1743130444639,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,primeTimer,End,End,1743130444683,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,mask2,Print,NA,1743130444685,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer2,Start,Start,1743130444687,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer2,End,End,1743130444790,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,target,Print,NA,1743130444793,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Key,answerTarget,PressedKey,J,1743130445508,kas6n5,B,nonword,f,unrelated,clock,HELTH,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Trial_,End,1743130445509,kas6n5,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Trial_,Start,1743130445509,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Header_,Start,1743130445509,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Header_,End,1743130445510,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,mask1,Print,NA,1743130445510,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer1,Start,Start,1743130445511,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer1,End,End,1743130446011,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,prime,Print,NA,1743130446014,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,primeTimer,Start,Start,1743130446016,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,primeTimer,End,End,1743130446059,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,mask2,Print,NA,1743130446063,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer2,Start,Start,1743130446064,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer2,End,End,1743130446168,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,target,Print,NA,1743130446170,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Key,answerTarget,PressedKey,F,1743130446755,kas6n5,B,word,j,related,party,FUN,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Trial_,End,1743130446757,kas6n5,B,word,j,related,party,FUN,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Trial_,Start,1743130446759,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Header_,Start,1743130446759,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Header_,End,1743130446760,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,mask1,Print,NA,1743130446761,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer1,Start,Start,1743130446762,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer1,End,End,1743130447265,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,prime,Print,NA,1743130447268,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,primeTimer,Start,Start,1743130447269,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,primeTimer,End,End,1743130447313,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,mask2,Print,NA,1743130447315,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer2,Start,Start,1743130447315,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer2,End,End,1743130447418,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,target,Print,NA,1743130447421,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Key,answerTarget,PressedKey,F,1743130447993,kas6n5,B,word,j,related,happy,JOYFUL,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Trial_,End,1743130447994,kas6n5,B,word,j,related,happy,JOYFUL,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Trial_,Start,1743130447997,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Header_,Start,1743130447997,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Header_,End,1743130447998,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,mask1,Print,NA,1743130447999,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer1,Start,Start,1743130448000,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer1,End,End,1743130448501,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,prime,Print,NA,1743130448503,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,primeTimer,Start,Start,1743130448505,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,primeTimer,End,End,1743130448550,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,mask2,Print,NA,1743130448552,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer2,Start,Start,1743130448553,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer2,End,End,1743130448655,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,target,Print,NA,1743130448657,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Key,answerTarget,PressedKey,J,1743130449299,kas6n5,B,nonword,f,unrelated,book,SUCCESH,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Trial_,End,1743130449300,kas6n5,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Trial_,Start,1743130449302,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Header_,Start,1743130449302,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Header_,End,1743130449303,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,mask1,Print,NA,1743130449304,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer1,Start,Start,1743130449304,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer1,End,End,1743130449807,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,prime,Print,NA,1743130449810,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,primeTimer,Start,Start,1743130449811,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,primeTimer,End,End,1743130449855,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,mask2,Print,NA,1743130449857,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer2,Start,Start,1743130449858,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer2,End,End,1743130449961,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,target,Print,NA,1743130449965,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Key,answerTarget,PressedKey,J,1743130450708,kas6n5,B,nonword,f,unrelated,light,WORBLE,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Trial_,End,1743130450709,kas6n5,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Trial_,Start,1743130450711,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Header_,Start,1743130450711,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Header_,End,1743130450712,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,mask1,Print,NA,1743130450713,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer1,Start,Start,1743130450713,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer1,End,End,1743130451213,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,prime,Print,NA,1743130451216,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,primeTimer,Start,Start,1743130451218,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,primeTimer,End,End,1743130451265,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,mask2,Print,NA,1743130451267,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer2,Start,Start,1743130451268,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer2,End,End,1743130451370,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,target,Print,NA,1743130451372,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Key,answerTarget,PressedKey,J,1743130452032,kas6n5,B,nonword,f,unrelated,plant,SCRANT,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Trial_,End,1743130452035,kas6n5,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Trial_,Start,1743130452036,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Header_,Start,1743130452036,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Header_,End,1743130452038,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,mask1,Print,NA,1743130452038,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer1,Start,Start,1743130452040,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer1,End,End,1743130452543,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,prime,Print,NA,1743130452546,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,primeTimer,Start,Start,1743130452547,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,primeTimer,End,End,1743130452589,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,mask2,Print,NA,1743130452591,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer2,Start,Start,1743130452593,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer2,End,End,1743130452696,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,target,Print,NA,1743130452698,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Key,answerTarget,PressedKey,J,1743130453371,kas6n5,B,nonword,f,unrelated,window,FAMBLY,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Trial_,End,1743130453373,kas6n5,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Trial_,Start,1743130453375,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Header_,Start,1743130453375,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Header_,End,1743130453376,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,mask1,Print,NA,1743130453377,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer1,Start,Start,1743130453377,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer1,End,End,1743130453878,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,prime,Print,NA,1743130453881,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,primeTimer,Start,Start,1743130453883,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,primeTimer,End,End,1743130453928,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,mask2,Print,NA,1743130453931,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer2,Start,Start,1743130453932,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer2,End,End,1743130454035,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,target,Print,NA,1743130454038,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Key,answerTarget,PressedKey,F,1743130454767,kas6n5,B,word,j,unrelated,street,LOVE,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Trial_,End,1743130454769,kas6n5,B,word,j,unrelated,street,LOVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Trial_,Start,1743130454770,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Header_,Start,1743130454770,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Header_,End,1743130454771,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,mask1,Print,NA,1743130454773,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer1,Start,Start,1743130454773,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer1,End,End,1743130455278,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,prime,Print,NA,1743130455281,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,primeTimer,Start,Start,1743130455282,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,primeTimer,End,End,1743130455325,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,mask2,Print,NA,1743130455328,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer2,Start,Start,1743130455329,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer2,End,End,1743130455432,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,target,Print,NA,1743130455435,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Key,answerTarget,PressedKey,F,1743130456001,kas6n5,B,word,j,related,problem,SOLVE,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Trial_,End,1743130456003,kas6n5,B,word,j,related,problem,SOLVE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Trial_,Start,1743130456005,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Header_,Start,1743130456005,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Header_,End,1743130456006,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,mask1,Print,NA,1743130456008,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer1,Start,Start,1743130456008,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer1,End,End,1743130456508,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,prime,Print,NA,1743130456510,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,primeTimer,Start,Start,1743130456511,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,primeTimer,End,End,1743130456555,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,mask2,Print,NA,1743130456558,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer2,Start,Start,1743130456559,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer2,End,End,1743130456662,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,target,Print,NA,1743130456664,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Key,answerTarget,PressedKey,J,1743130457362,kas6n5,B,nonword,f,unrelated,phone,PLORB,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Trial_,End,1743130457364,kas6n5,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Trial_,Start,1743130457365,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Header_,Start,1743130457365,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Header_,End,1743130457365,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,mask1,Print,NA,1743130457366,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer1,Start,Start,1743130457367,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer1,End,End,1743130457872,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,prime,Print,NA,1743130457874,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,primeTimer,Start,Start,1743130457875,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,primeTimer,End,End,1743130457918,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,mask2,Print,NA,1743130457920,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer2,Start,Start,1743130457921,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer2,End,End,1743130458025,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,target,Print,NA,1743130458027,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Key,answerTarget,PressedKey,F,1743130458732,kas6n5,B,word,j,unrelated,shoe,FITNESS,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Trial_,End,1743130458734,kas6n5,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Trial_,Start,1743130458735,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Header_,Start,1743130458735,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Header_,End,1743130458736,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,mask1,Print,NA,1743130458737,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer1,Start,Start,1743130458738,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer1,End,End,1743130459241,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,prime,Print,NA,1743130459244,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,primeTimer,Start,Start,1743130459245,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,primeTimer,End,End,1743130459288,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,mask2,Print,NA,1743130459290,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer2,Start,Start,1743130459291,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer2,End,End,1743130459395,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,target,Print,NA,1743130459397,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Key,answerTarget,PressedKey,J,1743130460111,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Trial_,End,1743130460113,kas6n5,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Trial_,Start,1743130460114,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Header_,Start,1743130460114,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Header_,End,1743130460116,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,mask1,Print,NA,1743130460117,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer1,Start,Start,1743130460117,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer1,End,End,1743130460617,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,prime,Print,NA,1743130460620,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,primeTimer,Start,Start,1743130460621,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,primeTimer,End,End,1743130460666,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,mask2,Print,NA,1743130460668,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer2,Start,Start,1743130460670,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer2,End,End,1743130460771,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,target,Print,NA,1743130460774,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Key,answerTarget,PressedKey,F,1743130461438,kas6n5,B,word,j,related,money,WEALTH,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Trial_,End,1743130461440,kas6n5,B,word,j,related,money,WEALTH,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Trial_,Start,1743130461441,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Header_,Start,1743130461441,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Header_,End,1743130461442,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,mask1,Print,NA,1743130461443,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer1,Start,Start,1743130461444,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer1,End,End,1743130461946,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,prime,Print,NA,1743130461948,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,primeTimer,Start,Start,1743130461949,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,primeTimer,End,End,1743130461995,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,mask2,Print,NA,1743130461997,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer2,Start,Start,1743130461998,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer2,End,End,1743130462099,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,target,Print,NA,1743130462102,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Key,answerTarget,PressedKey,F,1743130462911,kas6n5,B,word,j,unrelated,paper,COMFORT,Wait success
+1743130463,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Trial_,End,1743130462913,kas6n5,B,word,j,unrelated,paper,COMFORT,NULL
+#
+# Results on Fri, 28 Mar 2025 02:55:24 GMT
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:136.0) Gecko/20100101 Firefox/136.0
+# Design number was non-random = 2
+#
+# Columns below this comment are as follows:
+# 1. Results reception time.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Order number of item.
+# 5. Inner element number.
+# 6. Label.
+# 7. Latin Square Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. ID.
+# 14. Comments.
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Trial_,Start,1743130466927,cdy6bq,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Header_,Start,1743130466927,cdy6bq,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Header_,End,1743130466927,cdy6bq,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Trial_,End,1743130469333,cdy6bq,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Trial_,Start,1743130469336,cdy6bq,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Header_,Start,1743130469336,cdy6bq,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Header_,End,1743130469337,cdy6bq,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Trial_,End,1743130496584,cdy6bq,NULL
+# 14. Group.
+# 15. Condition.
+# 16. Expected.
+# 17. PrimeType.
+# 18. PrimeWord.
+# 19. TargetWord.
+# 20. Comments.
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Trial_,Start,1743130496589,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Header_,Start,1743130496589,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Header_,End,1743130496591,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,mask1,Print,NA,1743130496593,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer1,Start,Start,1743130496594,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer1,End,End,1743130497097,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,prime,Print,NA,1743130497101,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,primeTimer,Start,Start,1743130497102,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,primeTimer,End,End,1743130497145,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,mask2,Print,NA,1743130497148,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer2,Start,Start,1743130497149,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer2,End,End,1743130497249,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,target,Print,NA,1743130497252,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Key,answerTarget,PressedKey,F,1743130497858,cdy6bq,A,word,j,related,career,SUCCESS,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Trial_,End,1743130497861,cdy6bq,A,word,j,related,career,SUCCESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Trial_,Start,1743130497862,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Header_,Start,1743130497862,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Header_,End,1743130497864,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,mask1,Print,NA,1743130497866,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer1,Start,Start,1743130497866,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer1,End,End,1743130498367,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,prime,Print,NA,1743130498370,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,primeTimer,Start,Start,1743130498371,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,primeTimer,End,End,1743130498415,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,mask2,Print,NA,1743130498418,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer2,Start,Start,1743130498419,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer2,End,End,1743130498521,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,target,Print,NA,1743130498523,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Key,answerTarget,PressedKey,F,1743130499231,cdy6bq,A,word,j,unrelated,pencil,WEALTH,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Trial_,End,1743130499233,cdy6bq,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Trial_,Start,1743130499235,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Header_,Start,1743130499235,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Header_,End,1743130499236,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,mask1,Print,NA,1743130499238,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer1,Start,Start,1743130499239,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer1,End,End,1743130499743,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,prime,Print,NA,1743130499747,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,primeTimer,Start,Start,1743130499748,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,primeTimer,End,End,1743130499792,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,mask2,Print,NA,1743130499794,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer2,Start,Start,1743130499796,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer2,End,End,1743130499898,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,target,Print,NA,1743130499901,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Key,answerTarget,PressedKey,F,1743130500533,cdy6bq,A,word,j,related,home,COMFORT,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Trial_,End,1743130500534,cdy6bq,A,word,j,related,home,COMFORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Trial_,Start,1743130500537,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Header_,Start,1743130500537,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Header_,End,1743130500538,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,mask1,Print,NA,1743130500539,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer1,Start,Start,1743130500539,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer1,End,End,1743130501040,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,prime,Print,NA,1743130501043,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,primeTimer,Start,Start,1743130501044,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,primeTimer,End,End,1743130501087,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,mask2,Print,NA,1743130501089,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer2,Start,Start,1743130501089,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer2,End,End,1743130501192,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,target,Print,NA,1743130501194,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Key,answerTarget,PressedKey,J,1743130501778,cdy6bq,A,nonword,f,unrelated,light,WORBLE,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Trial_,End,1743130501780,cdy6bq,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Trial_,Start,1743130501783,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Header_,Start,1743130501783,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Header_,End,1743130501784,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,mask1,Print,NA,1743130501785,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer1,Start,Start,1743130501786,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer1,End,End,1743130502290,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,prime,Print,NA,1743130502293,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,primeTimer,Start,Start,1743130502294,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,primeTimer,End,End,1743130502338,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,mask2,Print,NA,1743130502340,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer2,Start,Start,1743130502341,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer2,End,End,1743130502444,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,target,Print,NA,1743130502446,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Key,answerTarget,PressedKey,F,1743130503014,cdy6bq,A,word,j,related,stress,ANXIOUS,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Trial_,End,1743130503016,cdy6bq,A,word,j,related,stress,ANXIOUS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Trial_,Start,1743130503019,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Header_,Start,1743130503019,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Header_,End,1743130503019,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,mask1,Print,NA,1743130503020,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer1,Start,Start,1743130503021,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer1,End,End,1743130503523,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,prime,Print,NA,1743130503525,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,primeTimer,Start,Start,1743130503527,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,primeTimer,End,End,1743130503571,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,mask2,Print,NA,1743130503573,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer2,Start,Start,1743130503574,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer2,End,End,1743130503675,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,target,Print,NA,1743130503677,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Key,answerTarget,PressedKey,J,1743130504291,cdy6bq,A,nonword,f,unrelated,picture,HAPY,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Trial_,End,1743130504292,cdy6bq,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Trial_,Start,1743130504294,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Header_,Start,1743130504294,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Header_,End,1743130504296,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,mask1,Print,NA,1743130504297,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer1,Start,Start,1743130504297,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer1,End,End,1743130504801,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,prime,Print,NA,1743130504804,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,primeTimer,Start,Start,1743130504805,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,primeTimer,End,End,1743130504849,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,mask2,Print,NA,1743130504852,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer2,Start,Start,1743130504853,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer2,End,End,1743130504956,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,target,Print,NA,1743130504957,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Key,answerTarget,PressedKey,F,1743130505924,cdy6bq,A,word,j,unrelated,glass,FUN,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Trial_,End,1743130505926,cdy6bq,A,word,j,unrelated,glass,FUN,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Trial_,Start,1743130505928,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Header_,Start,1743130505928,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Header_,End,1743130505929,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,mask1,Print,NA,1743130505930,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer1,Start,Start,1743130505931,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer1,End,End,1743130506433,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,prime,Print,NA,1743130506435,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,primeTimer,Start,Start,1743130506436,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,primeTimer,End,End,1743130506481,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,mask2,Print,NA,1743130506483,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer2,Start,Start,1743130506484,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer2,End,End,1743130506586,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,target,Print,NA,1743130506589,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Key,answerTarget,PressedKey,J,1743130507300,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Trial_,End,1743130507301,cdy6bq,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Trial_,Start,1743130507303,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Header_,Start,1743130507304,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Header_,End,1743130507305,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,mask1,Print,NA,1743130507306,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer1,Start,Start,1743130507306,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer1,End,End,1743130507806,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,prime,Print,NA,1743130507809,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,primeTimer,Start,Start,1743130507810,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,primeTimer,End,End,1743130507854,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,mask2,Print,NA,1743130507856,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer2,Start,Start,1743130507857,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer2,End,End,1743130507958,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,target,Print,NA,1743130507960,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Key,answerTarget,PressedKey,F,1743130508518,cdy6bq,A,word,j,related,family,LOVE,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Trial_,End,1743130508520,cdy6bq,A,word,j,related,family,LOVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Trial_,Start,1743130508522,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Header_,Start,1743130508522,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Header_,End,1743130508523,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,mask1,Print,NA,1743130508524,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer1,Start,Start,1743130508525,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer1,End,End,1743130509025,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,prime,Print,NA,1743130509028,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,primeTimer,Start,Start,1743130509030,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,primeTimer,End,End,1743130509077,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,mask2,Print,NA,1743130509079,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer2,Start,Start,1743130509079,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer2,End,End,1743130509181,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,target,Print,NA,1743130509184,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Key,answerTarget,PressedKey,F,1743130509785,cdy6bq,A,word,j,related,travel,VACATION,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Trial_,End,1743130509786,cdy6bq,A,word,j,related,travel,VACATION,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Trial_,Start,1743130509788,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Header_,Start,1743130509788,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Header_,End,1743130509788,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,mask1,Print,NA,1743130509789,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer1,Start,Start,1743130509790,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer1,End,End,1743130510291,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,prime,Print,NA,1743130510293,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,primeTimer,Start,Start,1743130510295,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,primeTimer,End,End,1743130510340,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,mask2,Print,NA,1743130510342,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer2,Start,Start,1743130510344,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer2,End,End,1743130510448,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,target,Print,NA,1743130510450,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Key,answerTarget,PressedKey,J,1743130511206,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Trial_,End,1743130511206,cdy6bq,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Trial_,Start,1743130511209,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Header_,Start,1743130511209,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Header_,End,1743130511210,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,mask1,Print,NA,1743130511211,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer1,Start,Start,1743130511212,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer1,End,End,1743130511712,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,prime,Print,NA,1743130511714,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,primeTimer,Start,Start,1743130511715,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,primeTimer,End,End,1743130511759,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,mask2,Print,NA,1743130511762,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer2,Start,Start,1743130511763,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer2,End,End,1743130511863,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,target,Print,NA,1743130511866,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Key,answerTarget,PressedKey,F,1743130512439,cdy6bq,A,word,j,related,health,FITNESS,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Trial_,End,1743130512441,cdy6bq,A,word,j,related,health,FITNESS,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Trial_,Start,1743130512442,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Header_,Start,1743130512442,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Header_,End,1743130512443,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,mask1,Print,NA,1743130512445,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer1,Start,Start,1743130512445,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer1,End,End,1743130512948,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,prime,Print,NA,1743130512951,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,primeTimer,Start,Start,1743130512953,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,primeTimer,End,End,1743130512997,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,mask2,Print,NA,1743130513001,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer2,Start,Start,1743130513002,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer2,End,End,1743130513103,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,target,Print,NA,1743130513106,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Key,answerTarget,PressedKey,J,1743130513841,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Trial_,End,1743130513843,cdy6bq,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Trial_,Start,1743130513844,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Header_,Start,1743130513844,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Header_,End,1743130513845,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,mask1,Print,NA,1743130513847,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer1,Start,Start,1743130513848,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer1,End,End,1743130514352,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,prime,Print,NA,1743130514355,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,primeTimer,Start,Start,1743130514356,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,primeTimer,End,End,1743130514399,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,mask2,Print,NA,1743130514401,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer2,Start,Start,1743130514402,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer2,End,End,1743130514503,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,target,Print,NA,1743130514505,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Key,answerTarget,PressedKey,F,1743130515147,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Trial_,End,1743130515148,cdy6bq,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Trial_,Start,1743130515150,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Header_,Start,1743130515150,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Header_,End,1743130515151,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,mask1,Print,NA,1743130515152,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer1,Start,Start,1743130515152,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer1,End,End,1743130515654,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,prime,Print,NA,1743130515658,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,primeTimer,Start,Start,1743130515659,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,primeTimer,End,End,1743130515703,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,mask2,Print,NA,1743130515706,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer2,Start,Start,1743130515707,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer2,End,End,1743130515810,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,target,Print,NA,1743130515813,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Key,answerTarget,PressedKey,J,1743130516522,cdy6bq,A,nonword,f,unrelated,clock,HELTH,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Trial_,End,1743130516524,cdy6bq,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Trial_,Start,1743130516526,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Header_,Start,1743130516526,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Header_,End,1743130516527,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,mask1,Print,NA,1743130516528,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer1,Start,Start,1743130516528,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer1,End,End,1743130517029,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,prime,Print,NA,1743130517032,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,primeTimer,Start,Start,1743130517033,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,primeTimer,End,End,1743130517076,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,mask2,Print,NA,1743130517078,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer2,Start,Start,1743130517079,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer2,End,End,1743130517181,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,target,Print,NA,1743130517184,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Key,answerTarget,PressedKey,J,1743130517942,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Trial_,End,1743130517944,cdy6bq,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Trial_,Start,1743130517946,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Header_,Start,1743130517946,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Header_,End,1743130517947,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,mask1,Print,NA,1743130517948,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer1,Start,Start,1743130517949,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer1,End,End,1743130518454,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,prime,Print,NA,1743130518456,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,primeTimer,Start,Start,1743130518457,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,primeTimer,End,End,1743130518500,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,mask2,Print,NA,1743130518503,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer2,Start,Start,1743130518504,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer2,End,End,1743130518607,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,target,Print,NA,1743130518609,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Key,answerTarget,PressedKey,F,1743130519356,cdy6bq,A,word,j,unrelated,tree,JOYFUL,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Trial_,End,1743130519359,cdy6bq,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Trial_,Start,1743130519361,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Header_,Start,1743130519361,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Header_,End,1743130519361,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,mask1,Print,NA,1743130519362,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer1,Start,Start,1743130519363,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer1,End,End,1743130519864,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,prime,Print,NA,1743130519866,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,primeTimer,Start,Start,1743130519868,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,primeTimer,End,End,1743130519911,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,mask2,Print,NA,1743130519913,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer2,Start,Start,1743130519914,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer2,End,End,1743130520014,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,target,Print,NA,1743130520017,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Key,answerTarget,PressedKey,F,1743130520989,cdy6bq,A,nonword,f,unrelated,phone,PLORB,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Trial_,End,1743130520991,cdy6bq,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Trial_,Start,1743130520992,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Header_,Start,1743130520992,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Header_,End,1743130520993,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,mask1,Print,NA,1743130520995,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer1,Start,Start,1743130520996,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer1,End,End,1743130521498,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,prime,Print,NA,1743130521501,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,primeTimer,Start,Start,1743130521503,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,primeTimer,End,End,1743130521548,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,mask2,Print,NA,1743130521550,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer2,Start,Start,1743130521551,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer2,End,End,1743130521655,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,target,Print,NA,1743130521657,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Key,answerTarget,PressedKey,F,1743130523111,cdy6bq,A,word,j,unrelated,water,DEGREE,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Trial_,End,1743130523113,cdy6bq,A,word,j,unrelated,water,DEGREE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Trial_,Start,1743130523114,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Header_,Start,1743130523114,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Header_,End,1743130523115,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,mask1,Print,NA,1743130523116,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer1,Start,Start,1743130523117,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer1,End,End,1743130523622,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,prime,Print,NA,1743130523624,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,primeTimer,Start,Start,1743130523625,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,primeTimer,End,End,1743130523669,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,mask2,Print,NA,1743130523672,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer2,Start,Start,1743130523673,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer2,End,End,1743130523777,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,target,Print,NA,1743130523780,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Key,answerTarget,PressedKey,F,1743130524572,cdy6bq,A,word,j,unrelated,music,SOLVE,Wait success
+1743130524,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Trial_,End,1743130524573,cdy6bq,A,word,j,unrelated,music,SOLVE,NULL
+#
+# Results on Fri, 28 Mar 2025 02:56:17 GMT
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:136.0) Gecko/20100101 Firefox/136.0
+# Design number was non-random = 3
+#
+# Columns below this comment are as follows:
+# 1. Results reception time.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Order number of item.
+# 5. Inner element number.
+# 6. Label.
+# 7. Latin Square Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. ID.
+# 14. Comments.
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Trial_,Start,1743130530298,ew2s60,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Header_,Start,1743130530298,ew2s60,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Header_,End,1743130530299,ew2s60,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Trial_,End,1743130543359,ew2s60,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Trial_,Start,1743130543365,ew2s60,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Header_,Start,1743130543365,ew2s60,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Header_,End,1743130543368,ew2s60,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Trial_,End,1743130549270,ew2s60,NULL
+# 14. Group.
+# 15. Condition.
+# 16. Expected.
+# 17. PrimeType.
+# 18. PrimeWord.
+# 19. TargetWord.
+# 20. Comments.
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Trial_,Start,1743130549273,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Header_,Start,1743130549273,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Header_,End,1743130549274,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,mask1,Print,NA,1743130549275,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer1,Start,Start,1743130549276,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer1,End,End,1743130549780,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,prime,Print,NA,1743130549784,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,primeTimer,Start,Start,1743130549785,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,primeTimer,End,End,1743130549828,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,mask2,Print,NA,1743130549830,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer2,Start,Start,1743130549831,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer2,End,End,1743130549934,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,target,Print,NA,1743130549936,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Key,answerTarget,PressedKey,F,1743130550825,ew2s60,B,nonword,f,unrelated,plant,SCRANT,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Trial_,End,1743130550827,ew2s60,B,nonword,f,unrelated,plant,SCRANT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Trial_,Start,1743130550829,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Header_,Start,1743130550829,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Header_,End,1743130550831,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,mask1,Print,NA,1743130550832,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer1,Start,Start,1743130550833,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer1,End,End,1743130551333,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,prime,Print,NA,1743130551336,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,primeTimer,Start,Start,1743130551337,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,primeTimer,End,End,1743130551383,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,mask2,Print,NA,1743130551385,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer2,Start,Start,1743130551387,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer2,End,End,1743130551491,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,target,Print,NA,1743130551494,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Key,answerTarget,PressedKey,F,1743130552417,ew2s60,B,nonword,f,unrelated,window,FAMBLY,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Trial_,End,1743130552419,ew2s60,B,nonword,f,unrelated,window,FAMBLY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Trial_,Start,1743130552420,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Header_,Start,1743130552420,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Header_,End,1743130552421,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,mask1,Print,NA,1743130552423,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer1,Start,Start,1743130552423,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer1,End,End,1743130552926,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,prime,Print,NA,1743130552929,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,primeTimer,Start,Start,1743130552930,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,primeTimer,End,End,1743130552975,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,mask2,Print,NA,1743130552977,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer2,Start,Start,1743130552978,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer2,End,End,1743130553082,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,target,Print,NA,1743130553083,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Key,answerTarget,PressedKey,J,1743130553861,ew2s60,B,word,j,related,money,WEALTH,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Trial_,End,1743130553863,ew2s60,B,word,j,related,money,WEALTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Trial_,Start,1743130553864,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Header_,Start,1743130553864,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Header_,End,1743130553866,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,mask1,Print,NA,1743130553867,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer1,Start,Start,1743130553867,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer1,End,End,1743130554372,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,prime,Print,NA,1743130554374,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,primeTimer,Start,Start,1743130554375,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,primeTimer,End,End,1743130554419,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,mask2,Print,NA,1743130554421,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer2,Start,Start,1743130554423,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer2,End,End,1743130554527,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,target,Print,NA,1743130554529,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Key,answerTarget,PressedKey,F,1743130555149,ew2s60,B,word,j,unrelated,floor,ANXIOUS,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Trial_,End,1743130555150,ew2s60,B,word,j,unrelated,floor,ANXIOUS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Trial_,Start,1743130555152,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Header_,Start,1743130555152,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Header_,End,1743130555154,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,mask1,Print,NA,1743130555155,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer1,Start,Start,1743130555155,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer1,End,End,1743130555657,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,prime,Print,NA,1743130555660,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,primeTimer,Start,Start,1743130555662,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,primeTimer,End,End,1743130555705,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,mask2,Print,NA,1743130555707,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer2,Start,Start,1743130555709,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer2,End,End,1743130555810,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,target,Print,NA,1743130555813,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Key,answerTarget,PressedKey,F,1743130556864,ew2s60,B,nonword,f,unrelated,phone,PLORB,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Trial_,End,1743130556866,ew2s60,B,nonword,f,unrelated,phone,PLORB,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Trial_,Start,1743130556869,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Header_,Start,1743130556869,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Header_,End,1743130556870,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,mask1,Print,NA,1743130556871,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer1,Start,Start,1743130556872,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer1,End,End,1743130557375,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,prime,Print,NA,1743130557377,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,primeTimer,Start,Start,1743130557378,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,primeTimer,End,End,1743130557422,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,mask2,Print,NA,1743130557425,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer2,Start,Start,1743130557426,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer2,End,End,1743130557528,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,target,Print,NA,1743130557531,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Key,answerTarget,PressedKey,J,1743130558070,ew2s60,B,word,j,related,friend,SUPPORT,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Trial_,End,1743130558071,ew2s60,B,word,j,related,friend,SUPPORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Trial_,Start,1743130558073,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Header_,Start,1743130558073,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Header_,End,1743130558073,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,mask1,Print,NA,1743130558074,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer1,Start,Start,1743130558075,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer1,End,End,1743130558576,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,prime,Print,NA,1743130558578,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,primeTimer,Start,Start,1743130558580,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,primeTimer,End,End,1743130558623,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,mask2,Print,NA,1743130558625,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer2,Start,Start,1743130558627,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer2,End,End,1743130558729,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,target,Print,NA,1743130558731,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Key,answerTarget,PressedKey,J,1743130559289,ew2s60,B,word,j,unrelated,shoe,FITNESS,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Trial_,End,1743130559290,ew2s60,B,word,j,unrelated,shoe,FITNESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Trial_,Start,1743130559292,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Header_,Start,1743130559292,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Header_,End,1743130559293,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,mask1,Print,NA,1743130559294,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer1,Start,Start,1743130559295,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer1,End,End,1743130559795,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,prime,Print,NA,1743130559797,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,primeTimer,Start,Start,1743130559799,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,primeTimer,End,End,1743130559844,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,mask2,Print,NA,1743130559846,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer2,Start,Start,1743130559848,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer2,End,End,1743130559952,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,target,Print,NA,1743130559954,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Key,answerTarget,PressedKey,J,1743130560893,ew2s60,B,word,j,unrelated,street,LOVE,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Trial_,End,1743130560895,ew2s60,B,word,j,unrelated,street,LOVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Trial_,Start,1743130560897,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Header_,Start,1743130560897,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Header_,End,1743130560898,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,mask1,Print,NA,1743130560899,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer1,Start,Start,1743130560900,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer1,End,End,1743130561402,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,prime,Print,NA,1743130561405,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,primeTimer,Start,Start,1743130561406,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,primeTimer,End,End,1743130561451,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,mask2,Print,NA,1743130561454,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer2,Start,Start,1743130561455,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer2,End,End,1743130561557,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,target,Print,NA,1743130561559,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Key,answerTarget,PressedKey,J,1743130562062,ew2s60,B,word,j,unrelated,paper,COMFORT,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Trial_,End,1743130562063,ew2s60,B,word,j,unrelated,paper,COMFORT,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Trial_,Start,1743130562066,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Header_,Start,1743130562066,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Header_,End,1743130562067,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,mask1,Print,NA,1743130562068,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer1,Start,Start,1743130562068,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer1,End,End,1743130562570,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,prime,Print,NA,1743130562572,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,primeTimer,Start,Start,1743130562573,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,primeTimer,End,End,1743130562617,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,mask2,Print,NA,1743130562618,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer2,Start,Start,1743130562619,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer2,End,End,1743130562719,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,target,Print,NA,1743130562721,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Key,answerTarget,PressedKey,J,1743130563460,ew2s60,B,word,j,related,happy,JOYFUL,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Trial_,End,1743130563462,ew2s60,B,word,j,related,happy,JOYFUL,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Trial_,Start,1743130563463,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Header_,Start,1743130563463,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Header_,End,1743130563464,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,mask1,Print,NA,1743130563465,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer1,Start,Start,1743130563466,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer1,End,End,1743130563970,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,prime,Print,NA,1743130563973,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,primeTimer,Start,Start,1743130563974,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,primeTimer,End,End,1743130564020,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,mask2,Print,NA,1743130564022,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer2,Start,Start,1743130564024,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer2,End,End,1743130564124,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,target,Print,NA,1743130564126,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Key,answerTarget,PressedKey,F,1743130564750,ew2s60,B,nonword,f,unrelated,light,WORBLE,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Trial_,End,1743130564751,ew2s60,B,nonword,f,unrelated,light,WORBLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Trial_,Start,1743130564752,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Header_,Start,1743130564752,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Header_,End,1743130564754,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,mask1,Print,NA,1743130564755,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer1,Start,Start,1743130564755,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer1,End,End,1743130565257,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,prime,Print,NA,1743130565260,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,primeTimer,Start,Start,1743130565261,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,primeTimer,End,End,1743130565306,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,mask2,Print,NA,1743130565308,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer2,Start,Start,1743130565309,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer2,End,End,1743130565412,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,target,Print,NA,1743130565415,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Key,answerTarget,PressedKey,F,1743130566250,ew2s60,B,nonword,f,unrelated,book,SUCCESH,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Trial_,End,1743130566252,ew2s60,B,nonword,f,unrelated,book,SUCCESH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Trial_,Start,1743130566254,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Header_,Start,1743130566254,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Header_,End,1743130566255,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,mask1,Print,NA,1743130566257,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer1,Start,Start,1743130566257,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer1,End,End,1743130566757,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,prime,Print,NA,1743130566760,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,primeTimer,Start,Start,1743130566761,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,primeTimer,End,End,1743130566806,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,mask2,Print,NA,1743130566808,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer2,Start,Start,1743130566809,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer2,End,End,1743130566911,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,target,Print,NA,1743130566913,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Key,answerTarget,PressedKey,F,1743130567538,ew2s60,B,nonword,f,unrelated,clock,HELTH,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Trial_,End,1743130567539,ew2s60,B,nonword,f,unrelated,clock,HELTH,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Trial_,Start,1743130567541,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Header_,Start,1743130567541,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Header_,End,1743130567541,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,mask1,Print,NA,1743130567542,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer1,Start,Start,1743130567544,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer1,End,End,1743130568044,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,prime,Print,NA,1743130568046,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,primeTimer,Start,Start,1743130568048,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,primeTimer,End,End,1743130568091,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,mask2,Print,NA,1743130568093,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer2,Start,Start,1743130568094,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer2,End,End,1743130568198,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,target,Print,NA,1743130568200,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Key,answerTarget,PressedKey,F,1743130568888,ew2s60,B,nonword,f,unrelated,picture,HAPY,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Trial_,End,1743130568889,ew2s60,B,nonword,f,unrelated,picture,HAPY,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Trial_,Start,1743130568891,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Header_,Start,1743130568891,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Header_,End,1743130568892,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,mask1,Print,NA,1743130568893,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer1,Start,Start,1743130568894,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer1,End,End,1743130569398,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,prime,Print,NA,1743130569401,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,primeTimer,Start,Start,1743130569402,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,primeTimer,End,End,1743130569445,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,mask2,Print,NA,1743130569447,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer2,Start,Start,1743130569448,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer2,End,End,1743130569551,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,target,Print,NA,1743130569555,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Key,answerTarget,PressedKey,J,1743130570146,ew2s60,B,word,j,unrelated,door,VACATION,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Trial_,End,1743130570148,ew2s60,B,word,j,unrelated,door,VACATION,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Trial_,Start,1743130570150,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Header_,Start,1743130570150,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Header_,End,1743130570151,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,mask1,Print,NA,1743130570152,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer1,Start,Start,1743130570153,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer1,End,End,1743130570658,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,prime,Print,NA,1743130570660,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,primeTimer,Start,Start,1743130570661,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,primeTimer,End,End,1743130570706,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,mask2,Print,NA,1743130570708,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer2,Start,Start,1743130570708,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer2,End,End,1743130570811,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,target,Print,NA,1743130570814,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Key,answerTarget,PressedKey,J,1743130571409,ew2s60,B,word,j,related,study,DEGREE,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Trial_,End,1743130571410,ew2s60,B,word,j,related,study,DEGREE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Trial_,Start,1743130571412,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Header_,Start,1743130571412,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Header_,End,1743130571414,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,mask1,Print,NA,1743130571414,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer1,Start,Start,1743130571415,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer1,End,End,1743130571915,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,prime,Print,NA,1743130571918,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,primeTimer,Start,Start,1743130571920,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,primeTimer,End,End,1743130571965,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,mask2,Print,NA,1743130571967,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer2,Start,Start,1743130571967,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer2,End,End,1743130572072,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,target,Print,NA,1743130572074,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Key,answerTarget,PressedKey,J,1743130572729,ew2s60,B,word,j,related,problem,SOLVE,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Trial_,End,1743130572731,ew2s60,B,word,j,related,problem,SOLVE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Trial_,Start,1743130572732,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Header_,Start,1743130572732,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Header_,End,1743130572733,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,mask1,Print,NA,1743130572734,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer1,Start,Start,1743130572734,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer1,End,End,1743130573237,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,prime,Print,NA,1743130573240,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,primeTimer,Start,Start,1743130573241,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,primeTimer,End,End,1743130573287,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,mask2,Print,NA,1743130573289,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer2,Start,Start,1743130573290,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer2,End,End,1743130573391,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,target,Print,NA,1743130573394,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Key,answerTarget,PressedKey,J,1743130574154,ew2s60,B,word,j,related,party,FUN,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Trial_,End,1743130574155,ew2s60,B,word,j,related,party,FUN,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Trial_,Start,1743130574157,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Header_,Start,1743130574157,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Header_,End,1743130574158,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,mask1,Print,NA,1743130574160,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer1,Start,Start,1743130574160,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer1,End,End,1743130574663,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,prime,Print,NA,1743130574666,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,primeTimer,Start,Start,1743130574667,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,primeTimer,End,End,1743130574711,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,mask2,Print,NA,1743130574714,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer2,Start,Start,1743130574715,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer2,End,End,1743130574818,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,target,Print,NA,1743130574820,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Key,answerTarget,PressedKey,J,1743130575458,ew2s60,B,word,j,unrelated,table,SUCCESS,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Trial_,End,1743130575460,ew2s60,B,word,j,unrelated,table,SUCCESS,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Trial_,Start,1743130575461,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Header_,Start,1743130575461,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Header_,End,1743130575462,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,mask1,Print,NA,1743130575464,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer1,Start,Start,1743130575464,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer1,End,End,1743130575964,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,prime,Print,NA,1743130575967,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,primeTimer,Start,Start,1743130575968,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,primeTimer,End,End,1743130576011,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,mask2,Print,NA,1743130576014,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer2,Start,Start,1743130576015,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer2,End,End,1743130576115,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,target,Print,NA,1743130576117,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Key,answerTarget,PressedKey,F,1743130576821,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,Wait success
+1743130577,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Trial_,End,1743130576823,ew2s60,B,nonword,f,unrelated,chair,FLIGGLE,NULL
+#
+# Results on Fri, 28 Mar 2025 02:56:57 GMT
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:136.0) Gecko/20100101 Firefox/136.0
+# Design number was non-random = 4
+#
+# Columns below this comment are as follows:
+# 1. Results reception time.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Order number of item.
+# 5. Inner element number.
+# 6. Label.
+# 7. Latin Square Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. ID.
+# 14. Comments.
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Trial_,Start,1743130582911,bdpc5y,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Header_,Start,1743130582911,bdpc5y,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Header_,End,1743130582911,bdpc5y,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,0,0,welcome,NULL,PennController,0,_Trial_,End,1743130584543,bdpc5y,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Trial_,Start,1743130584547,bdpc5y,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Header_,Start,1743130584547,bdpc5y,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Header_,End,1743130584548,bdpc5y,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,1,0,practice,NULL,PennController,1,_Trial_,End,1743130589650,bdpc5y,NULL
+# 14. Group.
+# 15. Condition.
+# 16. Expected.
+# 17. PrimeType.
+# 18. PrimeWord.
+# 19. TargetWord.
+# 20. Comments.
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Trial_,Start,1743130589652,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Header_,Start,1743130589652,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Header_,End,1743130589653,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,mask1,Print,NA,1743130589655,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer1,Start,Start,1743130589655,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer1,End,End,1743130590157,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,prime,Print,NA,1743130590160,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,primeTimer,Start,Start,1743130590161,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,primeTimer,End,End,1743130590206,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,mask2,Print,NA,1743130590208,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer2,Start,Start,1743130590209,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Timer,maskTimer2,End,End,1743130590312,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Text,target,Print,NA,1743130590315,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,Key,answerTarget,PressedKey,J,1743130590941,bdpc5y,A,word,j,related,stress,ANXIOUS,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,7,0,test,NULL,PennController,8,_Trial_,End,1743130590944,bdpc5y,A,word,j,related,stress,ANXIOUS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Trial_,Start,1743130590947,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Header_,Start,1743130590947,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Header_,End,1743130590948,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,mask1,Print,NA,1743130590951,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer1,Start,Start,1743130590952,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer1,End,End,1743130591454,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,prime,Print,NA,1743130591458,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,primeTimer,Start,Start,1743130591459,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,primeTimer,End,End,1743130591502,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,mask2,Print,NA,1743130591505,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer2,Start,Start,1743130591506,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Timer,maskTimer2,End,End,1743130591609,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Text,target,Print,NA,1743130591612,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,Key,answerTarget,PressedKey,F,1743130592275,bdpc5y,A,nonword,f,unrelated,light,WORBLE,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,15,0,test,NULL,PennController,16,_Trial_,End,1743130592277,bdpc5y,A,nonword,f,unrelated,light,WORBLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Trial_,Start,1743130592280,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Header_,Start,1743130592280,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Header_,End,1743130592281,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,mask1,Print,NA,1743130592282,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer1,Start,Start,1743130592282,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer1,End,End,1743130592783,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,prime,Print,NA,1743130592786,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,primeTimer,Start,Start,1743130592787,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,primeTimer,End,End,1743130592832,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,mask2,Print,NA,1743130592834,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer2,Start,Start,1743130592835,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Timer,maskTimer2,End,End,1743130592936,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Text,target,Print,NA,1743130592939,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,Key,answerTarget,PressedKey,J,1743130593493,bdpc5y,A,word,j,unrelated,tree,JOYFUL,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,10,0,test,NULL,PennController,11,_Trial_,End,1743130593495,bdpc5y,A,word,j,unrelated,tree,JOYFUL,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Trial_,Start,1743130593497,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Header_,Start,1743130593497,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Header_,End,1743130593498,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,mask1,Print,NA,1743130593499,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer1,Start,Start,1743130593500,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer1,End,End,1743130594003,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,prime,Print,NA,1743130594006,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,primeTimer,Start,Start,1743130594007,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,primeTimer,End,End,1743130594052,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,mask2,Print,NA,1743130594055,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer2,Start,Start,1743130594056,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Timer,maskTimer2,End,End,1743130594160,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Text,target,Print,NA,1743130594161,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,Key,answerTarget,PressedKey,F,1743130594875,bdpc5y,A,word,j,unrelated,pencil,WEALTH,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,8,0,test,NULL,PennController,9,_Trial_,End,1743130594877,bdpc5y,A,word,j,unrelated,pencil,WEALTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Trial_,Start,1743130594879,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Header_,Start,1743130594879,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Header_,End,1743130594880,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,mask1,Print,NA,1743130594881,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer1,Start,Start,1743130594882,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer1,End,End,1743130595387,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,prime,Print,NA,1743130595389,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,primeTimer,Start,Start,1743130595391,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,primeTimer,End,End,1743130595436,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,mask2,Print,NA,1743130595439,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer2,Start,Start,1743130595440,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Timer,maskTimer2,End,End,1743130595540,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Text,target,Print,NA,1743130595543,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,Key,answerTarget,PressedKey,J,1743130596235,bdpc5y,A,word,j,related,home,COMFORT,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,6,0,test,NULL,PennController,7,_Trial_,End,1743130596238,bdpc5y,A,word,j,related,home,COMFORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Trial_,Start,1743130596240,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Header_,Start,1743130596240,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Header_,End,1743130596241,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,mask1,Print,NA,1743130596242,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer1,Start,Start,1743130596243,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer1,End,End,1743130596748,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,prime,Print,NA,1743130596750,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,primeTimer,Start,Start,1743130596751,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,primeTimer,End,End,1743130596796,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,mask2,Print,NA,1743130596798,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer2,Start,Start,1743130596799,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Timer,maskTimer2,End,End,1743130596902,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Text,target,Print,NA,1743130596906,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,Key,answerTarget,PressedKey,J,1743130597484,bdpc5y,A,word,j,related,career,SUCCESS,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,2,0,test,NULL,PennController,3,_Trial_,End,1743130597485,bdpc5y,A,word,j,related,career,SUCCESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Trial_,Start,1743130597487,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Header_,Start,1743130597487,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Header_,End,1743130597488,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,mask1,Print,NA,1743130597489,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer1,Start,Start,1743130597490,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer1,End,End,1743130597990,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,prime,Print,NA,1743130597993,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,primeTimer,Start,Start,1743130597994,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,primeTimer,End,End,1743130598037,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,mask2,Print,NA,1743130598039,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer2,Start,Start,1743130598040,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Timer,maskTimer2,End,End,1743130598144,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Text,target,Print,NA,1743130598146,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,Key,answerTarget,PressedKey,J,1743130598883,bdpc5y,A,word,j,related,family,LOVE,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,3,0,test,NULL,PennController,4,_Trial_,End,1743130598885,bdpc5y,A,word,j,related,family,LOVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Trial_,Start,1743130598886,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Header_,Start,1743130598886,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Header_,End,1743130598887,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,mask1,Print,NA,1743130598887,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer1,Start,Start,1743130598888,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer1,End,End,1743130599388,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,prime,Print,NA,1743130599391,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,primeTimer,Start,Start,1743130599392,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,primeTimer,End,End,1743130599436,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,mask2,Print,NA,1743130599438,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer2,Start,Start,1743130599439,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Text,target,Print,NA,1743130599539,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Timer,maskTimer2,End,End,1743130599539,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,Key,answerTarget,PressedKey,J,1743130600081,bdpc5y,A,word,j,related,travel,VACATION,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,5,0,test,NULL,PennController,6,_Trial_,End,1743130600083,bdpc5y,A,word,j,related,travel,VACATION,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Trial_,Start,1743130600085,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Header_,Start,1743130600085,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Header_,End,1743130600086,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,mask1,Print,NA,1743130600088,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer1,Start,Start,1743130600088,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer1,End,End,1743130600592,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,prime,Print,NA,1743130600595,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,primeTimer,Start,Start,1743130600596,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,primeTimer,End,End,1743130600641,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,mask2,Print,NA,1743130600643,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer2,Start,Start,1743130600643,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Timer,maskTimer2,End,End,1743130600748,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Text,target,Print,NA,1743130600750,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,Key,answerTarget,PressedKey,F,1743130601594,bdpc5y,A,nonword,f,unrelated,clock,HELTH,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,20,0,test,NULL,PennController,21,_Trial_,End,1743130601596,bdpc5y,A,nonword,f,unrelated,clock,HELTH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Trial_,Start,1743130601598,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Header_,Start,1743130601598,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Header_,End,1743130601599,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,mask1,Print,NA,1743130601600,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer1,Start,Start,1743130601601,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer1,End,End,1743130602102,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,prime,Print,NA,1743130602104,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,primeTimer,Start,Start,1743130602105,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,primeTimer,End,End,1743130602149,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,mask2,Print,NA,1743130602151,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer2,Start,Start,1743130602152,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Timer,maskTimer2,End,End,1743130602256,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Text,target,Print,NA,1743130602258,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,Key,answerTarget,PressedKey,F,1743130602795,bdpc5y,A,nonword,f,unrelated,picture,HAPY,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,21,0,test,NULL,PennController,22,_Trial_,End,1743130602796,bdpc5y,A,nonword,f,unrelated,picture,HAPY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Trial_,Start,1743130602798,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Header_,Start,1743130602798,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Header_,End,1743130602799,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,mask1,Print,NA,1743130602800,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer1,Start,Start,1743130602801,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer1,End,End,1743130603302,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,prime,Print,NA,1743130603304,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,primeTimer,Start,Start,1743130603304,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,primeTimer,End,End,1743130603348,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,mask2,Print,NA,1743130603351,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer2,Start,Start,1743130603352,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Timer,maskTimer2,End,End,1743130603454,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Text,target,Print,NA,1743130603456,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,Key,answerTarget,PressedKey,F,1743130604300,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,18,0,test,NULL,PennController,19,_Trial_,End,1743130604301,bdpc5y,A,nonword,f,unrelated,book,SUCCESH,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Trial_,Start,1743130604303,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Header_,Start,1743130604303,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Header_,End,1743130604304,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,mask1,Print,NA,1743130604305,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer1,Start,Start,1743130604306,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer1,End,End,1743130604808,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,prime,Print,NA,1743130604810,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,primeTimer,Start,Start,1743130604811,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,primeTimer,End,End,1743130604855,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,mask2,Print,NA,1743130604858,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer2,Start,Start,1743130604859,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Timer,maskTimer2,End,End,1743130604961,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Text,target,Print,NA,1743130604963,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,Key,answerTarget,PressedKey,F,1743130605655,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,16,0,test,NULL,PennController,17,_Trial_,End,1743130605657,bdpc5y,A,nonword,f,unrelated,plant,SCRANT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Trial_,Start,1743130605659,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Header_,Start,1743130605659,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Header_,End,1743130605660,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,mask1,Print,NA,1743130605661,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer1,Start,Start,1743130605661,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer1,End,End,1743130606161,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,prime,Print,NA,1743130606164,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,primeTimer,Start,Start,1743130606165,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,primeTimer,End,End,1743130606210,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,mask2,Print,NA,1743130606212,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer2,Start,Start,1743130606213,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Timer,maskTimer2,End,End,1743130606315,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Text,target,Print,NA,1743130606318,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,Key,answerTarget,PressedKey,J,1743130606933,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,9,0,test,NULL,PennController,10,_Trial_,End,1743130606935,bdpc5y,A,word,j,unrelated,cloud,SUPPORT,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Trial_,Start,1743130606937,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Header_,Start,1743130606937,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Header_,End,1743130606938,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,mask1,Print,NA,1743130606939,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer1,Start,Start,1743130606940,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer1,End,End,1743130607444,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,prime,Print,NA,1743130607446,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,primeTimer,Start,Start,1743130607448,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,primeTimer,End,End,1743130607492,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,mask2,Print,NA,1743130607495,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer2,Start,Start,1743130607495,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Timer,maskTimer2,End,End,1743130607598,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Text,target,Print,NA,1743130607601,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,Key,answerTarget,PressedKey,J,1743130608486,bdpc5y,A,word,j,unrelated,music,SOLVE,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,13,0,test,NULL,PennController,14,_Trial_,End,1743130608487,bdpc5y,A,word,j,unrelated,music,SOLVE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Trial_,Start,1743130608489,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Header_,Start,1743130608489,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Header_,End,1743130608490,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,mask1,Print,NA,1743130608492,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer1,Start,Start,1743130608492,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer1,End,End,1743130608996,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,prime,Print,NA,1743130608999,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,primeTimer,Start,Start,1743130609000,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,primeTimer,End,End,1743130609044,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,mask2,Print,NA,1743130609046,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer2,Start,Start,1743130609048,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Timer,maskTimer2,End,End,1743130609150,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Text,target,Print,NA,1743130609153,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,Key,answerTarget,PressedKey,F,1743130609997,bdpc5y,A,nonword,f,unrelated,phone,PLORB,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,17,0,test,NULL,PennController,18,_Trial_,End,1743130609998,bdpc5y,A,nonword,f,unrelated,phone,PLORB,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Trial_,Start,1743130610000,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Header_,Start,1743130610000,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Header_,End,1743130610001,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,mask1,Print,NA,1743130610002,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer1,Start,Start,1743130610003,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer1,End,End,1743130610507,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,prime,Print,NA,1743130610510,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,primeTimer,Start,Start,1743130610511,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,primeTimer,End,End,1743130610554,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,mask2,Print,NA,1743130610557,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer2,Start,Start,1743130610558,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Timer,maskTimer2,End,End,1743130610660,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Text,target,Print,NA,1743130610663,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,Key,answerTarget,PressedKey,J,1743130611364,bdpc5y,A,word,j,unrelated,glass,FUN,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,12,0,test,NULL,PennController,13,_Trial_,End,1743130611365,bdpc5y,A,word,j,unrelated,glass,FUN,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Trial_,Start,1743130611365,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Header_,Start,1743130611365,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Header_,End,1743130611366,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,mask1,Print,NA,1743130611367,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer1,Start,Start,1743130611367,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer1,End,End,1743130611868,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,prime,Print,NA,1743130611872,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,primeTimer,Start,Start,1743130611873,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,primeTimer,End,End,1743130611917,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,mask2,Print,NA,1743130611920,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer2,Start,Start,1743130611921,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Timer,maskTimer2,End,End,1743130612025,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Text,target,Print,NA,1743130612027,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,Key,answerTarget,PressedKey,F,1743130612869,bdpc5y,A,word,j,related,health,FITNESS,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,4,0,test,NULL,PennController,5,_Trial_,End,1743130612871,bdpc5y,A,word,j,related,health,FITNESS,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Trial_,Start,1743130612873,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Header_,Start,1743130612873,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Header_,End,1743130612874,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,mask1,Print,NA,1743130612875,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer1,Start,Start,1743130612875,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer1,End,End,1743130613376,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,prime,Print,NA,1743130613379,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,primeTimer,Start,Start,1743130613379,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,primeTimer,End,End,1743130613424,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,mask2,Print,NA,1743130613426,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer2,Start,Start,1743130613427,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Timer,maskTimer2,End,End,1743130613530,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Text,target,Print,NA,1743130613533,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,Key,answerTarget,PressedKey,F,1743130614217,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,14,0,test,NULL,PennController,15,_Trial_,End,1743130614218,bdpc5y,A,nonword,f,unrelated,chair,FLIGGLE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Trial_,Start,1743130614220,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Header_,Start,1743130614220,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Header_,End,1743130614220,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,mask1,Print,NA,1743130614222,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer1,Start,Start,1743130614223,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer1,End,End,1743130614723,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,prime,Print,NA,1743130614726,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,primeTimer,Start,Start,1743130614728,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,primeTimer,End,End,1743130614770,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,mask2,Print,NA,1743130614772,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer2,Start,Start,1743130614772,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Timer,maskTimer2,End,End,1743130614873,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Text,target,Print,NA,1743130614875,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,Key,answerTarget,PressedKey,J,1743130615550,bdpc5y,A,word,j,unrelated,water,DEGREE,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,11,0,test,NULL,PennController,12,_Trial_,End,1743130615551,bdpc5y,A,word,j,unrelated,water,DEGREE,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Trial_,Start,1743130615553,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Header_,Start,1743130615553,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Header_,End,1743130615553,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,mask1,Print,NA,1743130615555,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer1,Start,Start,1743130615555,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer1,End,End,1743130616057,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,prime,Print,NA,1743130616060,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,primeTimer,Start,Start,1743130616062,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,primeTimer,End,End,1743130616105,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,mask2,Print,NA,1743130616107,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer2,Start,Start,1743130616108,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Timer,maskTimer2,End,End,1743130616212,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Text,target,Print,NA,1743130616215,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,Key,answerTarget,PressedKey,F,1743130617252,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,Wait success
+1743130617,6f04fad9571c4b100f16be0d73cdc1ae,PennController,19,0,test,NULL,PennController,20,_Trial_,End,1743130617254,bdpc5y,A,nonword,f,unrelated,window,FAMBLY,NULL

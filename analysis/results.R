@@ -12,55 +12,58 @@
 library(tidyverse)
 library(janitor)
 library(here)
-library(lme4)     # for mixed effects models
+library(lme4) # for mixed effects models
 library(lmerTest) # for p-values in mixed models
-library(emmeans)  # for estimated marginal means
+library(emmeans) # for estimated marginal means
 
 # --- 2. Define read.pcibex Function ---
 # User-defined function to read in PCIbex Farm results files
-read.pcibex <- function(filepath, auto.colnames=TRUE, fun.col=function(col,cols){cols[cols==col]<-paste(col,"Ibex",sep=".");return(cols)}) {
-  n.cols <- max(count.fields(filepath,sep=",",quote=NULL),na.rm=TRUE)
-  if (auto.colnames){
+read.pcibex <- function(filepath, auto.colnames = TRUE, fun.col = function(col, cols) {
+                          cols[cols == col] <- paste(col, "Ibex", sep = ".")
+                          return(cols)
+                        }) {
+  n.cols <- max(count.fields(filepath, sep = ",", quote = NULL), na.rm = TRUE)
+  if (auto.colnames) {
     cols <- c()
     con <- file(filepath, "r")
-    while ( TRUE ) {
-      line <- readLines(con, n = 1, warn=FALSE)
-      if ( length(line) == 0) {
+    while (TRUE) {
+      line <- readLines(con, n = 1, warn = FALSE)
+      if (length(line) == 0) {
         break
       }
       # Adjusted regex to handle potential variations in comment format
-      m <- regmatches(line,regexec("^# (\\d+)\\. (.+)\\.?$",line))[[1]]
+      m <- regmatches(line, regexec("^# (\\d+)\\. (.+)\\.?$", line))[[1]]
       if (length(m) == 3) {
         index <- as.numeric(m[2])
         value <- m[3]
-        if (is.function(fun.col)){
-          cols <- fun.col(value,cols)
+        if (is.function(fun.col)) {
+          cols <- fun.col(value, cols)
         }
         # Ensure the cols vector is long enough
         if (index > length(cols)) {
-            cols[(length(cols)+1):index] <- NA
+          cols[(length(cols) + 1):index] <- NA
         }
         cols[index] <- value
         if (!is.na(cols[n.cols]) || index > 25) {
-             if (index == n.cols) break
+          if (index == n.cols) break
         }
       }
     }
     close(con)
     cols <- cols[!is.na(cols)]
     if (length(cols) < n.cols) {
-        cols <- c(cols, paste0("V", (length(cols)+1):n.cols))
+      cols <- c(cols, paste0("V", (length(cols) + 1):n.cols))
     } else if (length(cols) > n.cols) {
-        cols <- cols[1:n.cols]
+      cols <- cols[1:n.cols]
     }
-    return(read.csv(filepath, comment.char="#", header=FALSE, col.names=cols, fill=TRUE))
-  } else{
-    return(read.csv(filepath, comment.char="#", header=FALSE, col.names=seq(1:n.cols), fill=TRUE))
+    return(read.csv(filepath, comment.char = "#", header = FALSE, col.names = cols, fill = TRUE))
+  } else {
+    return(read.csv(filepath, comment.char = "#", header = FALSE, col.names = seq(1:n.cols), fill = TRUE))
   }
 }
 
 # --- 3. Load and Clean Data ---
-results_file <- "_docs/results_dev.csv"
+results_file <- "_docs/results_prod.csv"
 
 # Check if file exists
 if (!file.exists(results_file)) {
@@ -78,15 +81,16 @@ processed_data <- results_clean %>%
   mutate(across(c(penn_element_type, penn_element_name, parameter, value, label), as.character)) %>%
   group_by(id, order_number_of_item) %>%
   fill(label, latin_square_group, condition, expected, prime_type,
-       any_of(c("prime_word", "target_word")),
-       .direction = "downup") %>%
+    any_of(c("prime_word", "target_word")),
+    .direction = "downup"
+  ) %>%
   {
     print("Key press events found:")
     key_events <- filter(., penn_element_type == "Key") %>%
       select(penn_element_name, parameter, value) %>%
       distinct()
     print(key_events)
-    . 
+    .
   } %>%
   mutate(
     event_type = case_when(
@@ -105,9 +109,11 @@ processed_data <- results_clean %>%
   arrange(event_time) %>%
   slice(1) %>%
   ungroup() %>%
-  select(id, order_number_of_item, label, latin_square_group, condition,
-         expected, prime_type, any_of(c("prime_word", "target_word")),
-         event_type, event_time, value) %>%
+  select(
+    id, order_number_of_item, label, latin_square_group, condition,
+    expected, prime_type, any_of(c("prime_word", "target_word")),
+    event_type, event_time, value
+  ) %>%
   pivot_wider(
     names_from = event_type,
     values_from = c(event_time, value)
@@ -127,7 +133,7 @@ processed_data <- results_clean %>%
 
 # --- 5. Calculate RT and Accuracy ---
 final_data <- processed_data %>%
-  mutate(across(ends_with("_time"), ~suppressWarnings(as.numeric(as.character(.))))) %>%
+  mutate(across(ends_with("_time"), ~ suppressWarnings(as.numeric(as.character(.))))) %>%
   mutate(rt = response_time - target_onset_time) %>%
   mutate(
     response_key = toupper(response_key),
@@ -139,7 +145,8 @@ final_data <- processed_data %>%
     accuracy = if_else(response_key == correct_response, 1, 0)
   ) %>%
   select(
-    id, trial = order_number_of_item, label, group = latin_square_group,
+    id,
+    trial = order_number_of_item, label, group = latin_square_group,
     condition, expected_key = expected, prime_type,
     any_of(c("prime_word", "target_word")),
     rt, response_key, correct_response, accuracy
@@ -184,26 +191,27 @@ print("Priming Effect (RT):")
 print(paste("Raw mean difference:", round(priming_effect_rt$priming_effect_ms, 1), "ms"))
 
 if (nrow(analysis_data_rt) > 5 && length(unique(analysis_data_rt$prime_type)) == 2) {
-  rt_model <- lmer(rt ~ prime_type + 
-                   (1|id) +
-                   (1|target_word),
-                   data = analysis_data_rt)
-  
+  rt_model <- lmer(
+    rt ~ prime_type +
+      (1 | id) +
+      (1 | target_word),
+    data = analysis_data_rt
+  )
+
   print("Linear mixed effects model results:")
   print(summary(rt_model))
-  
-  emm <- emmeans(rt_model, ~ prime_type)
+
+  emm <- emmeans(rt_model, ~prime_type)
   print("Estimated marginal means:")
   print(emm)
-  
+
   pairs <- pairs(emm)
   print("Pairwise comparisons:")
   print(pairs)
-  
+
   contrasts <- contrast(emm, "pairwise")
   effect_size <- contrasts$estimate / sqrt(VarCorr(rt_model)$id[1] + VarCorr(rt_model)$target_word[1])
   print(paste("Cohen's d effect size:", round(effect_size, 3)))
-  
 } else {
   print("Not enough data or conditions for mixed effects analysis.")
 }

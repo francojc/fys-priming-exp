@@ -27,6 +27,8 @@
         here
         languageserver
         emmeans
+        lme4
+        lmerTest
       ];
 
       # Combine all package lists, including the Python environment itself
