@@ -1,19 +1,17 @@
+#!/usr/bin/env Rscript
 # analysis/results.R
 
 # Description: A script to analyze PCIbex Farm results data.
 # This script reads in the results file, cleans and tidies the data,
 # calculates reaction times (RT) and accuracy, analyzes priming effects,
 # and visualizes the results.
-# Usage: Run the script in R or RStudio after placing it in the 'analysis' folder.
+# Usage: Rscript analysis/results.R
 
 # --- 1. Load Libraries ---
 # Use pacman to load/install packages
-if (!require("pacman")) install.packages("pacman")
-pacman::p_load(
-  tidyverse, # For data manipulation (dplyr, tidyr) and plotting (ggplot2)
-  janitor,   # For cleaning column names
-  here       # For robust file paths (optional, but good practice)
-)
+library(tidyverse)
+library(janitor)
+library(here)
 
 # --- 2. Define read.pcibex Function ---
 # User-defined function to read in PCIbex Farm results files
@@ -73,7 +71,7 @@ read.pcibex <- function(filepath, auto.colnames=TRUE, fun.col=function(col,cols)
 # Assumes the script is in 'analysis/' and data in '_docs/' at the same level
 # Use here::here() for more robust path handling if preferred
 # results_file <- here::here("..", "_docs", "results_dev.csv")
-results_file <- "../_docs/results_dev.csv"
+results_file <- "_docs/results_dev.csv"
 
 # Check if file exists
 if (!file.exists(results_file)) {
@@ -111,7 +109,7 @@ processed_data <- results_clean %>%
       # penn_element_type == "Text" & penn_element_name == "prime" & parameter == "Print" ~ "prime_onset",
       TRUE ~ NA_character_ # Ignore other rows for pivoting time/value
     )
-  ) %>%
+  )  %>%
   # Keep only rows with key events
   filter(!is.na(event_type)) %>%
   # Select relevant columns for pivoting
