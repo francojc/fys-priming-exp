@@ -5,8 +5,8 @@ PennController.ResetPrefix(null) // Shorten command names (keep this line here))
 Sequence( "welcome" , "practice" , randomize("test") , "send" , "final" )
 
 Header( /* void */ )
-    // This .log command will apply to all trials
-    .log( "ID" , GetURLParameter("id") ) // Append the "ID" URL parameter to each result line
+    // Generate a random 6-character ID for each participant
+    .log( "ID" , Math.random().toString(36).substring(2,8) )
 
 // Welcome screen and logging user's ID
 newTrial( "welcome" ,
